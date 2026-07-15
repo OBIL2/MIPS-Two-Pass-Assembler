@@ -1,0 +1,10 @@
+start:
+addi $t0,$zero,0
+addi $t1,$zero,5
+loop:
+beq $t0,$t1,done
+add $t2,$t0,$t1
+addi $t0,$t0,1
+j loop
+done:
+and $t3,$t2,$t1

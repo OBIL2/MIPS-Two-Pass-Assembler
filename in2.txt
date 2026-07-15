@@ -1,0 +1,6 @@
+addi $s0,$zero,15
+andi $s1,$s0,7
+ori $s2,$s0,3
+xor $s3,$s1,$s2
+slt $s4,$s1,$s2
+andi $s5,$s4,1

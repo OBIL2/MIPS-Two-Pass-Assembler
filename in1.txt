@@ -1,0 +1,6 @@
+add $t0,$t1,$t2
+addi $t3,$t0,5
+and $t4,$t0,$t3
+or $t5,$t4,$t3
+addi $t6,$zero,10
+add $t7,$t5,$t6

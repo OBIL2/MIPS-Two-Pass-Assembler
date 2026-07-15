@@ -1,0 +1,17 @@
+main:
+addi $t0,$zero,8
+addi $t1,$zero,3
+add $t2,$t0,$t1
+and $t3,$t0,$t1
+or $t4,$t0,$t1
+xor $t5,$t0,$t1
+slt $t6,$t1,$t0
+andi $t7,$t0,5
+ori $s0,$t1,4
+addi $sp,$sp,-8
+sw $t2,0($sp)
+lw $s1,0($sp)
+beq $t6,$zero,end
+j main
+end:
+add $s2,$s0,$s1

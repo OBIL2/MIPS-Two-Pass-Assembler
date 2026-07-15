@@ -1,0 +1,10 @@
+begin:
+addi $s0,$zero,4
+ori $s1,$zero,2
+xor $s2,$s0,$s1
+slt $s3,$s1,$s0
+beq $s3,$zero,skip
+or $s4,$s0,$s1
+j begin
+skip:
+andi $s5,$s0,3
