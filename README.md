@@ -54,10 +54,7 @@ A two-pass MIPS assembler written in C that translates MIPS assembly instruction
 ├── in5.txt
 ├── in6.txt
 ├── report/
-│   └── COMP451B_Assgn2_Report.pdf
-├── screenshots/
-│   ├── terminal/
-│   └── mars/
+│   └── Mips Report.pdf
 ├── README.md
 ├── LICENSE
 └── .gitignore
